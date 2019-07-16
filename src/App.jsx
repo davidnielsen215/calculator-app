@@ -25,7 +25,9 @@ class App extends Component {
     render(){
         return(
             <div className='app'>
+                
                 <div className='calc-wrapper'>
+                    <p className="me">David Nielsen</p>
                     <Input input={this.state.input}></Input>
                 <div className='row'>
                 <Button handleClick={this.addToInput}>7</Button>
